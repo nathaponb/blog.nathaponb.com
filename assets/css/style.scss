@@ -7,6 +7,13 @@
 .project-name {
     position: relative !important;
 }
+
+.page-header {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .project-thumbnail {
     width: 100%;
     height: 100%;
