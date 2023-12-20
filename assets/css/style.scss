@@ -3,7 +3,8 @@
 
 @import "{{ site.theme }}";
 
-.page-header {
+.page-header,
+.project-name {
     position: relative !important;
 }
 .project-thumbnail {
@@ -14,4 +15,3 @@
     left: 0;
     object-fit: cover;
 }
-
