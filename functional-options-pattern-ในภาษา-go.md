@@ -4,7 +4,7 @@ thumbnail: functional-options-pattern-ในภาษา-go.jpg
 ---
 
 
-# Functional Options Pattern ในภาษา Go
+# Functional Options Pattern ในภาษา Go hello world
 
 **Nathaponb, 10-12-2023**
 
