@@ -1,3 +1,9 @@
+---
+title: "Functional Options Pattern ในภาษา Go"
+thumbnail: functional-options-pattern-ในภาษา-go.jpg
+---
+
+
 # Functional Options Pattern ในภาษา Go
 
 **Nathaponb, 10-12-2023**

@@ -14,7 +14,9 @@
   <body>
 
     <header class="page-header" role="banner">
-      <img src="/images/{{ page.name | relative_url }}.jpg" alt="thumbnail">
+      {% if page.thumbnail %}
+        <img src="/images{{ page.thumbnail | relative_url }}" alt="thumbnail">
+      {% endif %}
       <h1 class="project-name">Nathapon B</h1>
       <h2 class="project-tagline">{{ page.title }}</h2>
     </header>
