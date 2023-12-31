@@ -22,7 +22,7 @@
       </header>
     {% else %}
       <header class="page-header" role="banner">
-        <h1 class="project-name">NATHAPON B</h1>
+        <h1 class="project-name">NathaponB</h1>
       </header>
     {% endif %}
     
@@ -40,4 +40,9 @@
       </div>
     </main>
   </body>
+
+  <script>
+    const image = new Image();
+    image.src = '/images{{ page.thumbnail | relative_url }}';
+  </script>
 </html>
