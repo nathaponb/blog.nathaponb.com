@@ -32,3 +32,9 @@
   max-width: 680px;
   margin: 0 auto;
 }
+
+@media screen and (max-with: 680) {
+  .page-thumbnail {
+    margin: 1rem 1rem 0 1rem;
+  }
+}
