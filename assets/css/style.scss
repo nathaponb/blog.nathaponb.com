@@ -17,15 +17,13 @@
 
 .page-thumbnail {
   position: relative;
-  height: 500px;
+  max-height: 500px;
   max-width: 680px;
   margin: 0 auto;
   margin-top: 1rem;
 }
 .project-thumbnail {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .main-content-wrap {
