@@ -14,18 +14,9 @@
 
   <body>
 
-    <!-- if no thumbnail -> render default bg else render thumbnail no bg   -->
-    {% if page.thumbnail %}
-      <header>
-        <figure class="page-thumbnail">
-          <img class="project-thumbnail" src="/images{{ page.thumbnail | relative_url }}" alt="thumbnail">
-        </figure>
-      </header>
-    {% else %}
-      <header class="page-header" role="banner">
-        <h1 class="project-name">NathaponB</h1>
-      </header>
-    {% endif %}
+    <header class="page-header" role="banner">
+      <h1 class="project-name">NathaponB</h1>
+    </header>
     
 
     <main id="content" class="main-content" role="main">
